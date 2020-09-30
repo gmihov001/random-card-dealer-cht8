@@ -24,4 +24,5 @@ const myFunction = () => {
 
   document.querySelector(".top").innerHTML = randomSuit;
   document.querySelector(".middle").innerHTML = randomNumber;
+  document.querySelector(".bottom").innerHTML = randomSuit;
 };
