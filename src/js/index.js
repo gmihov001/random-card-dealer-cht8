@@ -10,3 +10,5 @@ window.onload = function() {
 };
 
 const myFunction = () => {};
+let top = ["&#9824", "&#9827", "&#9829", "&#9830"];
+let middle = [2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K", "A"];
