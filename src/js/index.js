@@ -17,9 +17,6 @@ const myFunction = () => {
 
   if (randomSuit === "&#9830" || randomSuit === "&#9829") {
     document.querySelector(".card").style.color = "red";
-    // document.querySelector("#top").style.color = "red";
-    // document.querySelector("#middle").style.color = "red";
-    // document.querySelector("#bottom").style.color = "red";
   }
 
   document.querySelector(".top").innerHTML = randomSuit;
