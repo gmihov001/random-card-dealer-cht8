@@ -15,7 +15,7 @@ let numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K", "A"];
 let randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
 let randomSuit = suits[Math.floor(Math.random() * suits.length)];
 
-if (randomSuite === "&#9830" || randomSuite === "&#9829") {
+if (randomSuit === "&#9830" || randomSuit === "&#9829") {
   document.querySelector(".card").style.color = "red";
   // document.querySelector("#top").style.color = "red";
   // document.querySelector("#middle").style.color = "red";
