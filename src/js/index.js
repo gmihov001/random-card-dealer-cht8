@@ -14,3 +14,10 @@ let suits = ["&#9824", "&#9827", "&#9829", "&#9830"];
 let numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K", "A"];
 let randomNumber = middle[Math.floor(Math.random() * numbers.length)];
 let randomSuit = top[Math.floor(Math.random() * suits.length)];
+
+if (randomSuite === "&#9830" || randomSuite === "&#9829") {
+  document.querySelector(".card").style.color = "red";
+  // document.querySelector("#top").style.color = "red";
+  // document.querySelector("#middle").style.color = "red";
+  // document.querySelector("#bottom").style.color = "red";
+}
