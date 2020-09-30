@@ -6,5 +6,7 @@ import "../assets/img/4geeks.ico";
 import "../style/index.scss";
 
 window.onload = function() {
-  console.log("Hello Rigo from the console!");
+  myFunction();
 };
+
+const myFunction = () => {};
